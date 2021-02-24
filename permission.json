@@ -1,0 +1,52 @@
+{
+  "user_permission":{
+    "user":{
+      "user_id":1,
+      "admin":{
+        "feature": [{
+          "feature_id":1,
+          "name": "overview",
+          "sub_feature ": [{
+            "sub_feature_id": 1,
+            "name":"intro"
+          },{
+            "sub_feature_id": 2,
+            "name":"ask_question"
+          }]
+        },{
+          "feature_id":2,
+          "name": "maya plus",
+          "sub_feature ": [{
+            "sub_feature_id": 1,
+            "name":"today"
+          },{
+            "sub_feature_id": 2,
+            "name":"last 7 days"
+          },{
+            "sub_feature_id": 3,
+            "name":"last 30 days"
+          },{
+            "sub_feature_id": 4,
+            "name":"earning"
+          },{
+            "sub_feature_id": 5,
+            "name":"graph"
+          }]
+        }]
+      },
+      "specialist":{
+        "feature": [{
+          "feature_id":2,
+          "name": "free premium",
+          "sub_feature ": [{
+            "sub_feature_id": 1,
+            "name":"answering now"
+          },{
+            "sub_feature_id": 2,
+            "name":"pregnancy queue"
+          }]
+        }]
+      }
+    }
+  }
+}
