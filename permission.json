@@ -1,16 +1,19 @@
 {
     "admin":{
-        "features":["overview", "maya plus"],
+        "features":["overview", "profile","video_call_schedule_management", "video_call_feature_expert"],
         "feature_component_map":[
             {"overview":["intro", "ask_question"]},
-            {"maya plus": ["today", "last 7 days", "last 30 days", "earning"]}
+            {"profile": ["basic_information", "all_answer_question", "rated_question"]}
         ]
     },
 
     "specialist":{
-        "features":["free premium"],
+        "features":["free_premium","paid_premium"],
         "feature_component_map":[
-            {"overview":["answering now", "answering now", "pregnancy queue"]}
+            {"free_premium":["answering_now", "pregnancy_queue", "1st_queue", "2nd/3rd_queue", "4th/5th_queue"]},
+            {"paid_premium":["prescription_queue", "10_minutes_queue", "sms_queue", "other_queue"]},
+            {"video_call_schedule_management": ["physicians", "counsellors", "nutritionists", "beauty_and_lifestyle_experts"]},
+            {"video_call_feature_expert":["physicians", "counsellors", "nutritionists", "beauticians"]}
         ]
     }
   }
