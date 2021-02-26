@@ -1,9 +1,11 @@
 {
     "admin":{
-        "features":["overview", "profile","video_call_schedule_management", "video_call_feature_expert"],
+        "features":["overview","video_call_schedule_management", "video_call_feature_expert"],
         "feature_component_map":[
             {"overview":["intro", "ask_question"]},
-            {"profile": ["basic_information", "all_answer_question", "rated_question"]}
+            {"profile": ["basic_information", "all_answer_question", "rated_question"]},
+            {"video_call_schedule_management": ["physicians", "counsellors", "nutritionists", "beauty_and_lifestyle_experts"]},
+            {"video_call_feature_expert":["physicians", "counsellors", "nutritionists", "beauticians"]}
         ]
     },
 
@@ -11,9 +13,7 @@
         "features":["free_premium","paid_premium"],
         "feature_component_map":[
             {"free_premium":["answering_now", "pregnancy_queue", "1st_queue", "2nd/3rd_queue", "4th/5th_queue"]},
-            {"paid_premium":["prescription_queue", "10_minutes_queue", "sms_queue", "other_queue"]},
-            {"video_call_schedule_management": ["physicians", "counsellors", "nutritionists", "beauty_and_lifestyle_experts"]},
-            {"video_call_feature_expert":["physicians", "counsellors", "nutritionists", "beauticians"]}
+            {"paid_premium":["prescription_queue", "10_minutes_queue", "sms_queue", "other_queue"]}
         ]
     }
   }
