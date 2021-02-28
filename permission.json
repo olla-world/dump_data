@@ -1,4 +1,4 @@
-{
+{   "types" : ["admin","specialist"],
     "admin":{
         "features":["overview","video_call_schedule_management", "video_call_feature_expert"],
         "feature_component_map":[
