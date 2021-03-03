@@ -1,5 +1,5 @@
 {
-    "user_access": [
+    "permitted_features": [
         {
             "feature_type": "admin",
             "features": [
