@@ -3,9 +3,11 @@
         "feature_type": "admin",
         "features": [
             {
+                "id": 1,
                 "name": "overview",
                 "children": [
                     {
+                        "id": 1,
                         "name": "overview",
                         "route": "/overview",
                         "component": [
@@ -16,9 +18,11 @@
                 ]
             },
             {
+                "id": 2,
                 "name": "video call",
                 "children": [
                     {
+                        "id": 1,
                         "name": "schedule management",
                         "route": "/schedule-management",
                         "component": [
@@ -29,6 +33,7 @@
                         ]
                     },
                     {
+                        "id": 2,
                         "name": "feature expert",
                         "route": "/feature-expert",
                         "component": [
@@ -46,9 +51,11 @@
         "feature_type": "specialist",
         "features": [
             {
+                "id": 1,
                 "name": "free premium",
                 "children": [
                     {
+                        "id": 1,
                         "name": "free premium",
                         "route": "/free-premium",
                         "component": [
@@ -62,9 +69,11 @@
                 ]
             },
             {
+                "id": 2,
                 "name": "paid premium",
                 "children": [
                     {
+                        "id": 1,
                         "name": "paid premium",
                         "route": "/paid-premium",
                         "component": [
