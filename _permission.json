@@ -1,52 +1,83 @@
 {
-  "user_permission":{
-    
-    "user_id":1,
-    "admin":{
-      "feature": [{
-        "feature_id":1,
-        "name": "overview",
-        "sub_feature ": [{
-          "sub_feature_id": 1,
-          "name":"intro"
-        },{
-          "sub_feature_id": 2,
-          "name":"ask_question"
-        }]
-      },{
-        "feature_id":2,
-        "name": "maya plus",
-        "sub_feature ": [{
-          "sub_feature_id": 1,
-          "name":"today"
-        },{
-          "sub_feature_id": 2,
-          "name":"last 7 days"
-        },{
-          "sub_feature_id": 3,
-          "name":"last 30 days"
-        },{
-          "sub_feature_id": 4,
-          "name":"earning"
-        },{
-          "sub_feature_id": 5,
-          "name":"graph"
-        }]
-      }]
+  "user_access": [
+    {
+      "feature_type": "admin",
+      "features": [
+        {
+          "name": "overview",
+          "child": [
+            {
+              "name": "overview",
+              "route": "/overview",
+              "component": [
+                "intro",
+                "ask_question"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "video call",
+          "child": [
+            {
+              "name": "schedule management",
+              "route": "/schedule-management",
+              "component": [
+                "physicians",
+                "counsellors",
+                "nutritionists",
+                "beauty_and_lifestyle_experts"
+              ]
+            },
+            {
+              "name": "feature expert",
+              "route": "/feature-expert",
+              "component": [
+                "physicians",
+                "counsellors",
+                "nutritionists",
+                "beauticians"
+              ]
+            }
+          ]
+        }
+      ]
     },
-    "specialist":{
-      "feature": [{
-        "feature_id":2,
-        "name": "free premium",
-        "sub_feature ": [{
-          "sub_feature_id": 1,
-          "name":"answering now"
-        },{
-          "sub_feature_id": 2,
-          "name":"pregnancy queue"
-        }]
-      }]
+    {
+      "feature_type": "specialist",
+      "features": [
+        {
+          "name": "free premium",
+          "child": [
+            {
+              "name": "free premium",
+              "route": "/free-premium",
+              "component": [
+                "answering_now",
+                "pregnancy_queue",
+                "1st_queue",
+                "2nd/3rd_queue",
+                "4th/5th_queue"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "paid premium",
+          "child": [
+            {
+              "name": "paid premium",
+              "route": "/paid-premium",
+              "component": [
+                "prescription_queue",
+                "10_minutes_queue",
+                "sms_queue",
+                "other_queue"
+              ]
+            }
+          ]
+        }
+      ]
     }
-    
-  }
+  ]
 }
