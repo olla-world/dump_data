@@ -4,7 +4,7 @@
         "features": [
             {
                 "name": "overview",
-                "child": [
+                "children": [
                     {
                         "name": "overview",
                         "route": "/overview",
@@ -17,7 +17,7 @@
             },
             {
                 "name": "video call",
-                "child": [
+                "children": [
                     {
                         "name": "schedule management",
                         "route": "/schedule-management",
@@ -47,7 +47,7 @@
         "features": [
             {
                 "name": "free premium",
-                "child": [
+                "children": [
                     {
                         "name": "free premium",
                         "route": "/free-premium",
@@ -63,7 +63,7 @@
             },
             {
                 "name": "paid premium",
-                "child": [
+                "children": [
                     {
                         "name": "paid premium",
                         "route": "/paid-premium",
