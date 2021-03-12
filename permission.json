@@ -4,8 +4,12 @@
         "features": [
             {
                 "id": 1,
-                "name": "dashboard",
-                "type": "single"
+                "name": "overview",
+                "type": "single",
+                "component": [
+                    "intro",
+                    "ask_question"
+                ]
             },
             {
                 "id": 2,
@@ -15,6 +19,7 @@
                     {
                         "id": 1,
                         "name": "schedule management",
+                        "route": "/schedule-management",
                         "component": [
                             "physicians",
                             "counsellors",
@@ -25,6 +30,7 @@
                     {
                         "id": 2,
                         "name": "feature expert",
+                        "route": "/feature-expert",
                         "component": [
                             "physicians",
                             "counsellors",
@@ -42,33 +48,45 @@
             {
                 "id": 1,
                 "name": "free premium",
-                "type": "nested",
-                "children": [
-                    {
-                        "id": 1,
-                        "name": "free premium",
-                        "component": [
-                            "answering_now",
-                            "pregnancy_queue",
-                            "1st_queue",
-                            "2nd/3rd_queue",
-                            "4th/5th_queue"
-                        ]
-                    }
+                "type": "single",
+                "component": [
+                    "answering_now",
+                    "pregnancy_queue",
+                    "1st_queue",
+                    "2nd/3rd_queue",
+                    "4th/5th_queue"
                 ]
             },
             {
                 "id": 2,
                 "name": "paid premium",
+                "type": "single",
+                "component": [
+                    "prescription_queue",
+                    "10_minutes_queue",
+                    "sms_queue",
+                    "other_queue"
+                ]
+            }
+        ]
+    },
+    {
+        "feature_type": "user",
+        "features": [
+            {
+                "id": 3,
+                "name": "profile",
+                "type": "nested",
                 "children": [
                     {
-                        "id": 1,
-                        "name": "paid premium",
+                        "id": 3,
+                        "name": "my answers",
+                        "route": "/my-answers",
                         "component": [
-                            "prescription_queue",
-                            "10_minutes_queue",
-                            "sms_queue",
-                            "other_queue"
+                            "physicians",
+                            "counsellors",
+                            "nutritionists",
+                            "beauty_and_lifestyle_experts"
                         ]
                     }
                 ]
