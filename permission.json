@@ -6,6 +6,7 @@
                 "id": 1,
                 "name": "overview",
                 "type": "single",
+                "position": "sidebar",
                 "component": [
                     "intro",
                     "ask_question"
@@ -15,6 +16,7 @@
                 "id": 2,
                 "name": "video call",
                 "type": "nested",
+                "position": "sidebar",
                 "children": [
                     {
                         "id": 1,
@@ -49,6 +51,7 @@
                 "id": 1,
                 "name": "free premium",
                 "type": "single",
+                "position": "sidebar",
                 "component": [
                     "answering_now",
                     "pregnancy_queue",
@@ -61,6 +64,7 @@
                 "id": 2,
                 "name": "paid premium",
                 "type": "single",
+                "position": "sidebar",
                 "component": [
                     "prescription_queue",
                     "10_minutes_queue",
@@ -77,6 +81,7 @@
                 "id": 3,
                 "name": "profile",
                 "type": "nested",
+                "position": "topbar",
                 "children": [
                     {
                         "id": 3,
