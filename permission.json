@@ -88,28 +88,31 @@
         "features": [
             {
                 "id": 1,
-                "name": "free premium",
+                "name": "freemium queues",
                 "type": "single",
                 "position": "sidebar",
-                "component": [
-                    "answering_now",
-                    "pregnancy_queue",
-                    "1st_queue",
-                    "2nd/3rd_queue",
-                    "4th/5th_queue"
-                ]
+                "component": []
             },
             {
                 "id": 2,
-                "name": "paid premium",
+                "name": "premium queues",
                 "type": "single",
                 "position": "sidebar",
-                "component": [
-                    "prescription_queue",
-                    "10_minutes_queue",
-                    "sms_queue",
-                    "other_queue"
-                ]
+                "component": []
+            },
+            {
+                "id": 2,
+                "name": "free queues",
+                "type": "single",
+                "position": "sidebar",
+                "component": []
+            },
+            {
+                "id": 2,
+                "name": "answer questions",
+                "type": "single",
+                "position": "sidebar",
+                "component": []
             }
         ]
     },
