@@ -3,17 +3,35 @@
         "feature_type": "admin",
         "features": [
             {
-                "id": 1,
-                "name": "overview",
-                "type": "single",
+                "id": 0,
+                "name": "manage",
+                "type": "nested",
                 "position": "sidebar",
-                "component": [
-                    "intro",
-                    "ask_question"
+                "children": [
+                    {
+                        "id": 1,
+                        "name": "experts",
+                        "component": []
+                    },
+                    {
+                        "id": 2,
+                        "name": "applications",
+                        "component": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "comments",
+                        "component": []
+                    },
+                    {
+                        "id": 2,
+                        "name": "leave management",
+                        "component": []
+                    }
                 ]
             },
             {
-                "id": 2,
+                "id": 1,
                 "name": "video call",
                 "type": "nested",
                 "position": "sidebar",
@@ -21,7 +39,6 @@
                     {
                         "id": 1,
                         "name": "schedule management",
-                        "route": "/schedule-management",
                         "component": [
                             "physicians",
                             "counsellors",
@@ -32,13 +49,35 @@
                     {
                         "id": 2,
                         "name": "feature expert",
-                        "route": "/feature-expert",
                         "component": [
                             "physicians",
                             "counsellors",
                             "nutritionists",
                             "beauticians"
                         ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "report",
+                "type": "nested",
+                "position": "sidebar",
+                "children": [
+                    {
+                        "id": 1,
+                        "name": "activity",
+                        "component": []
+                    },
+                    {
+                        "id": 2,
+                        "name": "performance",
+                        "component": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "earning",
+                        "component": []
                     }
                 ]
             }
