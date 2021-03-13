@@ -10,8 +10,12 @@
                 "children": [
                     {
                         "id": 1,
-                        "name": "experts",
-                        "component": []
+                        "name": "expert management",
+                        "component": [
+                            "add",
+                            "remove",
+                            "edit"
+                        ]
                     },
                     {
                         "id": 2,
@@ -24,7 +28,7 @@
                         "component": []
                     },
                     {
-                        "id": 2,
+                        "id": 4,
                         "name": "leave management",
                         "component": []
                     }
@@ -101,14 +105,14 @@
                 "component": []
             },
             {
-                "id": 2,
+                "id": 3,
                 "name": "free queues",
                 "type": "single",
                 "position": "sidebar",
                 "component": []
             },
             {
-                "id": 2,
+                "id": 4,
                 "name": "answer questions",
                 "type": "single",
                 "position": "sidebar",
@@ -126,9 +130,8 @@
                 "position": "topbar",
                 "children": [
                     {
-                        "id": 3,
+                        "id": 1,
                         "name": "my answers",
-                        "route": "/my-answers",
                         "component": [
                             "physicians",
                             "counsellors",
