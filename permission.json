@@ -1,131 +1,127 @@
-[
-    {
-        "sidebar": [
-            {
-                "feature_type": "admin",
-                "features": [
-                    {
-                        "id": 0,
-                        "name": "manage",
-                        "type": "nested",
-                        "children": [
-                            {
-                                "id": 1,
-                                "name": "expert management",
-                                "component": [
-                                    "add",
-                                    "remove",
-                                    "edit"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": 1,
-                        "name": "video call",
-                        "type": "nested",
-                        "children": [
-                            {
-                                "id": 1,
-                                "name": "schedule management",
-                                "component": [
-                                    "physicians",
-                                    "counsellors",
-                                    "nutritionists",
-                                    "beauty_and_lifestyle_experts"
-                                ]
-                            },
-                            {
-                                "id": 2,
-                                "name": "feature expert",
-                                "component": [
-                                    "physicians",
-                                    "counsellors",
-                                    "nutritionists",
-                                    "beauticians"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "name": "report",
-                        "type": "nested",
-                        "children": [
-                            {
-                                "id": 1,
-                                "name": "activity",
-                                "component": []
-                            },
-                            {
-                                "id": 2,
-                                "name": "performance",
-                                "component": []
-                            },
-                            {
-                                "id": 3,
-                                "name": "earning",
-                                "component": []
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "feature_type": "specialist",
-                "features": [
-                    {
-                        "id": 1,
-                        "name": "freemium queues",
-                        "type": "single",
-                        "component": []
-                    },
-                    {
-                        "id": 2,
-                        "name": "premium queues",
-                        "type": "single",
-                        "component": []
-                    },
-                    {
-                        "id": 3,
-                        "name": "free queues",
-                        "type": "single",
-                        "component": []
-                    },
-                    {
-                        "id": 4,
-                        "name": "answer questions",
-                        "type": "single",
-                        "component": []
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "topbar": [
-            {
-                "feature_type": "user",
-                "features": [
-                    {
-                        "id": 3,
-                        "name": "profile",
-                        "type": "nested",
-                        "children": [
-                            {
-                                "id": 1,
-                                "name": "my answers",
-                                "component": [
-                                    "physicians",
-                                    "counsellors",
-                                    "nutritionists",
-                                    "beauty_and_lifestyle_experts"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    }
-]
+{
+    "sidebar": [
+        {
+            "feature_type": "admin",
+            "features": [
+                {
+                    "id": 0,
+                    "name": "manage",
+                    "type": "nested",
+                    "children": [
+                        {
+                            "id": 1,
+                            "name": "expert management",
+                            "component": [
+                                "add",
+                                "remove",
+                                "edit"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "name": "video call",
+                    "type": "nested",
+                    "children": [
+                        {
+                            "id": 1,
+                            "name": "schedule management",
+                            "component": [
+                                "physicians",
+                                "counsellors",
+                                "nutritionists",
+                                "beauty_and_lifestyle_experts"
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "feature expert",
+                            "component": [
+                                "physicians",
+                                "counsellors",
+                                "nutritionists",
+                                "beauticians"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "report",
+                    "type": "nested",
+                    "children": [
+                        {
+                            "id": 1,
+                            "name": "activity",
+                            "component": []
+                        },
+                        {
+                            "id": 2,
+                            "name": "performance",
+                            "component": []
+                        },
+                        {
+                            "id": 3,
+                            "name": "earning",
+                            "component": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "feature_type": "specialist",
+            "features": [
+                {
+                    "id": 1,
+                    "name": "freemium queues",
+                    "type": "single",
+                    "component": []
+                },
+                {
+                    "id": 2,
+                    "name": "premium queues",
+                    "type": "single",
+                    "component": []
+                },
+                {
+                    "id": 3,
+                    "name": "free queues",
+                    "type": "single",
+                    "component": []
+                },
+                {
+                    "id": 4,
+                    "name": "answer questions",
+                    "type": "single",
+                    "component": []
+                }
+            ]
+        }
+    ],
+    "topbar": [
+        {
+            "feature_type": "user",
+            "features": [
+                {
+                    "id": 3,
+                    "name": "profile",
+                    "type": "nested",
+                    "children": [
+                        {
+                            "id": 1,
+                            "name": "my answers",
+                            "component": [
+                                "physicians",
+                                "counsellors",
+                                "nutritionists",
+                                "beauty_and_lifestyle_experts"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
