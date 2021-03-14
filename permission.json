@@ -16,21 +16,6 @@
                             "remove",
                             "edit"
                         ]
-                    },
-                    {
-                        "id": 2,
-                        "name": "applications",
-                        "component": []
-                    },
-                    {
-                        "id": 3,
-                        "name": "comments",
-                        "component": []
-                    },
-                    {
-                        "id": 4,
-                        "name": "leave management",
-                        "component": []
                     }
                 ]
             },
