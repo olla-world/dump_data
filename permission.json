@@ -102,7 +102,7 @@
     ],
     "topbar": [
         {
-            "feature_type": "user",
+            "feature_type": "profile",
             "features": [
                 {
                     "id": 3,
