@@ -107,19 +107,30 @@
                 {
                     "id": 3,
                     "name": "profile",
-                    "type": "nested",
+                    "type": "single",
+                    "component":[]
+                },{
+                    "id": 4,
+                    "name": "account history",
+                    "type":"nested",
                     "children": [
                         {
                             "id": 1,
-                            "name": "my answers",
-                            "component": [
-                                "physicians",
-                                "counsellors",
-                                "nutritionists",
-                                "beauty_and_lifestyle_experts"
-                            ]
+                            "name": "all answered question",
+                            "type": "single",
+                            "component": []
+                        },{
+                            "id":2,
+                            "name": "rated question",
+                            "type":"single",
+                            "component":[]
                         }
                     ]
+                },{
+                    "id": 5,
+                    "name": "my earning",
+                    "type":"single",
+                    "component":[]
                 }
             ]
         }
